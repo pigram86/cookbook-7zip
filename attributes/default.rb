@@ -16,5 +16,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-default[:tool][:url] = "http://downloads.sourceforge.net/sevenzip/7z920-x64.msi"
-default[:tool][:file] = "C:/Program Files/7-zip/7z.exe"
+default['tool']['url'] = "http://downloads.sourceforge.net/sevenzip/7z920-x64.msi"
+default['tool']['file'] = "C:/Program Files/7-zip/7z.exe"

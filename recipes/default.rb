@@ -18,9 +18,9 @@
 #
 # install 7zip
 windows_package "7-Zip for 64-bit Windows x64" do
-  source node[:tool][:url]
+  source node['tool']['url']
   action :install
-  not_if {::File.exists?(node[:tool][:file])}
+  not_if {::File.exists?(node['tool']['file'])}
   not_if {reboot_pending?}
 end
 
