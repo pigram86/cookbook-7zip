@@ -1,0 +1,16 @@
+{
+  "chef": {
+    "chef_server_url": "https://api.opscode.com/organizations/daas",
+    "validation_client_name": "daas-validator",
+    "validation_key_path": "~/daas-repo/.chef/daas-validator.pem",
+    "client_key": "~/daas-repo/.chef/toddpigram.pem",
+    "node_name": "toddpigram"
+  },
+  "vagrant": {
+    "vm": {
+      "box": "opscode-ubuntu-12.04-i386",
+      "box_url": "https://opscode-vm.s3.amazonaws.com/vagrant/opscode_ubuntu-12.04-i386_provisionerless.box",
+      "provision": "chef_client"
+    }
+  }
+}
