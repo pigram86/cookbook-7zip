@@ -1,0 +1,24 @@
+E, [2014-02-16T13:07:48.543700 #59190] ERROR -- Kitchen: ------Exception-------
+E, [2014-02-16T13:07:48.546834 #59190] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-02-16T13:07:48.547656 #59190] ERROR -- Kitchen: Message: Kitchen YAML file /Users/toddpigram/code/7zip/.kitchen.yml does not exist.
+E, [2014-02-16T13:07:48.547729 #59190] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-02-16T13:07:48.547787 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/loader/yaml.rb:59:in `read'
+E, [2014-02-16T13:07:48.547844 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/config.rb:78:in `data'
+E, [2014-02-16T13:07:48.547899 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/config.rb:66:in `suites'
+E, [2014-02-16T13:07:48.547954 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/config.rb:90:in `filter_instances'
+E, [2014-02-16T13:07:48.548009 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-02-16T13:07:48.548063 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/config.rb:52:in `instances'
+E, [2014-02-16T13:07:48.548118 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/cli.rb:342:in `get_filtered_instances'
+E, [2014-02-16T13:07:48.548172 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/cli.rb:327:in `parse_subcommand'
+E, [2014-02-16T13:07:48.548225 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/cli.rb:60:in `list'
+E, [2014-02-16T13:07:48.548278 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+E, [2014-02-16T13:07:48.548332 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+E, [2014-02-16T13:07:48.548384 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/cli.rb:288:in `invoke_task'
+E, [2014-02-16T13:07:48.548436 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+E, [2014-02-16T13:07:48.548490 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+E, [2014-02-16T13:07:48.548544 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.1.1/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-02-16T13:07:48.548598 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-02-16T13:07:48.548635 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.1.1/bin/kitchen:13:in `<top (required)>'
+E, [2014-02-16T13:07:48.548679 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/bin/kitchen:23:in `load'
+E, [2014-02-16T13:07:48.548728 #59190] ERROR -- Kitchen: /Users/toddpigram/.rbenv/versions/1.9.3-p484/bin/kitchen:23:in `<main>'
+E, [2014-02-16T13:07:48.548762 #59190] ERROR -- Kitchen: ----------------------
