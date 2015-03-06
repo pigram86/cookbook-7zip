@@ -17,6 +17,7 @@ bin/*
 # Chef
 .chef/*.pem
 .chef/*.rb
+.chef/*.*
 .chef/encrypted_data_bag_secret
 
 # Ruby
@@ -67,4 +68,5 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
+
 
